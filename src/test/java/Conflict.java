@@ -8,7 +8,7 @@ public class Conflict {
 
     @Test
     void successfulSearchTest() {
-        open("https://www.google.com/");
+        open("https://www.https://www.rambler.ru/");
         $("[name=q]").setValue("selenide").pressEnter();
         $("[id=search]").shouldHave(text("https://selenide.org"));
     }
